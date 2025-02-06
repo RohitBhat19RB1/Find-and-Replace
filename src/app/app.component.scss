@@ -1,0 +1,25 @@
+.editor {
+  min-height: 100px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+  font-family: monospace;
+  line-height: 1.6;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.highlight {
+  background-color: rgba(255, 255, 0, 0.5);
+  transition: background-color 0.3s ease;
+  border-radius: 2px;
+}
+
+.current {
+  background-color: rgba(255, 165, 0, 0.7);
+  font-weight: bold;
+}
